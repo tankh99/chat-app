@@ -1,0 +1,36 @@
+.message{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.profile{
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.message-box{
+    border-radius: 10px;
+    background: white;
+    padding: 15px 10px 20px 15px;
+    margin: 5px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    width: 100%;
+}
+
+.owner {
+    background-color: greenyellow;
+}
+
+.message-box-timestamp{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 0.8em;
+    color: rgb(49, 49, 49);
+    font-style: italic;
+
+}
